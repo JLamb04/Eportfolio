@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J.lamb</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cd942dca7a.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <section id="landing-page">
@@ -29,7 +29,7 @@
           link__hover-effect--black
           ">Projects</a>  
         </li>
-        <li class="nav__link">
+        <li class="nav__link click">
           <a href="#" class="
           nav__link--anchor
           link__hover-effecf
@@ -41,10 +41,74 @@
           nav__link--anchor
           link__hover-effecf
           link__hover-effect--black
-          "svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,16.37a86.4,86.4,0,0,1,16,3V212.67a86.4,86.4,0,0,1-16,3Zm32,9.26a87.81,87.81,0,0,1,16,10.54V195.83a87.81,87.81,0,0,1-16,10.54ZM40,128a88.11,88.11,0,0,1,80-87.63V215.63A88.11,88.11,0,0,1,40,128Zm160,50.54V77.46a87.82,87.82,0,0,1,0,101.08Z"></path></svg></a>  
+          "></a><i class="fa-solid fa-circle-half-stroke"></i>  
         </li>
      </ul>  
     </nav>
+    <header class="header">
+       <div class="header__content">
+        <h1 class="title">Hey</h1>
+         <h1 class="title orange">I'm Johnny.</h1>
+         <p class="header__para">
+            I'm a <b class="orange">Frontend Software Engineer</b> with a strong passion for building web applications with great user experiences.
+            <br> 
+            Here's a bit more <b class="orange">about me.</b> 
+         </p>
+         <div class="social__list">
+            <a href="https://google.com" target="_blank" class="social__link click">
+               <i class="fab fa-linkedin-in"></i> 
+            </a>
+            <a href="https://github.com" target="_blank" class="social__link click">
+               <i class="fab fa-github"></i>
+            </a>
+                <a href="./assets" class="social__link click">
+                <i class="fas fa-file-pdf"></i>
+                </a>
+         </div>
+       </div> 
+    </header>
+    <button class="mail__btn click">
+      <i class="fas fa-envelope"></i>
+    </button>
+    <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+    </a>
+   </section>
+   <section id="projects">
+    <div class="container">
+        <div class="row">
+            <h1 class="section__title">
+                Here are some of my <span class="orange">Projects</span>
+            </h1>
+            <ul class="project__list">
+                <li class="project">
+                    <div class="project__wrapper">
+                     <img src="./Tutorial Exclusive Eportfolio/assets/blinker mockup.png" alt="">
+                     <div class="project__description">
+                       <h3 class="project__description--title">
+                        car Sales Projects
+                       </h3>
+                        <h4 class="project__description--sub-title">
+                            Html, CSS, JavaScript, Vue, Vuex
+                        </h4>
+                        <p class="project__description--para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, 
+                            luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectur 
+                            adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
+                        </p>
+                        <div class="project__description--links">
+                            <a href="#" class="project__description--link">
+                            <i class="fab fa-github"></i>   
+                            </a>
+                            <a href="#" class="project__description--link">
+                            <i class="fab fa-link"></i>
+                        </div>
+                     </div>   
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
    </section>
 </body>
 </html>
