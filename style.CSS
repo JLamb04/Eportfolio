@@ -297,6 +297,7 @@ MODAL
 .modal__about { 
     background-color: rgb(245, 245, 245);
     padding: 40px 28px;
+    width: 50%;
 }
 
 .modal__languages { 
@@ -334,7 +335,7 @@ transform: scale(1);
     width: 100%;
 }
 
-.modal__contact { 
+__contact { 
     background-color: #242424; 
     color: white;
     padding: 40px 28px;
